@@ -9,7 +9,7 @@
 </p>
 
 ## Note:-
-This is a fork of the uhabits repo. I created this only to serve my specific use case of listening to Macrodroid intent which I will be consuming for my personal use. After going through the design of uhabits I understood that the creator values data privacy a lot.
+This is a fork of the uhabits repo. I created this only to serve my specific use case of listening to Macrodroid intent which I will be consuming for my personal use. After going through the design of uhabits I understood that the creator values data privacy a lot, hence the fork.
 
 ## Introduction (What it does)
 Loop is a mobile app that helps you create and maintain good habits,
