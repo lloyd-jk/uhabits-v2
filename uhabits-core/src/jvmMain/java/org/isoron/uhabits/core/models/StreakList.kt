@@ -33,6 +33,23 @@ class StreakList {
         }.toList()
     }
 
+    /**
+     * Returns the streak that is active on the given timestamp.
+     *
+     * If the streak ended yesterday, it is still considered active.
+     */
+    @Synchronized
+    fun getCurrentStreak(today: Timestamp): Streak? {
+        if (list.isEmpty()) return null
+
+        for (streak in list) {
+             if (!streak.end.isOlderThan(today.minus(1))) {
+                 return streak
+             }
+        }
+        return null
+    }
+
     @Synchronized
     fun recompute(
         computedEntries: EntryList,

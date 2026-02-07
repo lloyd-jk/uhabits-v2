@@ -218,6 +218,14 @@
             </intent-filter>
         </receiver>
 
+        <receiver
+            android:name=".receivers.MacrodroidHabitReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.isoron.uhabits.ACTION_QUERY_HABITS" />
+            </intent-filter>
+        </receiver>
+
         <receiver android:name=".receivers.WidgetReceiver"
             android:exported="true"
             android:permission="false">

@@ -8,6 +8,10 @@
   </a>
 </p>
 
+## Note:-
+This is a fork of the uhabits repo. I created this only to serve my specific use case of listening to Macrodroid intent which I will be consuming for my personal use. After going through the design of uhabits I understood that the creator values data privacy a lot.
+
+## Introduction (What it does)
 Loop is a mobile app that helps you create and maintain good habits,
 allowing you to achieve your long-term goals. Detailed graphs and statistics
 show you how your habits improved over time. It is completely ad-free and open

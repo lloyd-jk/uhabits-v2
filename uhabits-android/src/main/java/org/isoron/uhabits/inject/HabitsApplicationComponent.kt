@@ -63,4 +63,6 @@ interface HabitsApplicationComponent {
     val taskRunner: TaskRunner
     val widgetPreferences: WidgetPreferences
     val widgetUpdater: WidgetUpdater
+
+    fun inject(receiver: org.isoron.uhabits.receivers.MacrodroidHabitReceiver)
 }
